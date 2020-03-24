@@ -25,6 +25,7 @@ namespace OOP_L1_1
             FiguresList.Add(new Line(new Pen(Color.Blue, 4), new Point(10, 10), new Point(100, 100)));
             FiguresList.Add(new Line(new Pen(Color.Black, 5), new Point(100, 100), new Point(200, 100)));
             FiguresList.Add(new Line(new Pen(Color.Green, 15), new Point(100, 100), new Point(200, 140)));
+            FiguresList.Add(new Line(new Pen(Color.Green, 15), new Point(100, 100), new Point(200, 240)));
         }
         private void BtnDraw_Click(object sender, EventArgs e)
         {

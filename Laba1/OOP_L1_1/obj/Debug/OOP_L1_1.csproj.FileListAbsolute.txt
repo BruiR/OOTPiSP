@@ -16,3 +16,12 @@ F:\Ycheba\4sem\OOP\ForGit\OOP_L1_1\OOP_L1_1\obj\Debug\OOP_L1_1.Properties.Resour
 F:\Ycheba\4sem\OOP\ForGit\OOP_L1_1\OOP_L1_1\obj\Debug\OOP_L1_1.csproj.GenerateResource.cache
 F:\Ycheba\4sem\OOP\ForGit\OOP_L1_1\OOP_L1_1\obj\Debug\OOP_L1_1.exe
 F:\Ycheba\4sem\OOP\ForGit\OOP_L1_1\OOP_L1_1\obj\Debug\OOP_L1_1.pdb
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\bin\Debug\OOP_L1_1.exe.config
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\bin\Debug\OOP_L1_1.exe
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\bin\Debug\OOP_L1_1.pdb
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\obj\Debug\OOP_L1_1.csprojAssemblyReference.cache
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\obj\Debug\OOP_L1_1.Form1.resources
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\obj\Debug\OOP_L1_1.Properties.Resources.resources
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\obj\Debug\OOP_L1_1.csproj.GenerateResource.cache
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\obj\Debug\OOP_L1_1.exe
+F:\Ycheba\4sem\OOP\OOTPiSP\Laba1\OOP_L1_1\obj\Debug\OOP_L1_1.pdb
