@@ -21,12 +21,13 @@ namespace OOP_L1_1
         private void Form1_Load(object sender, EventArgs e)
         {
             graphic = pBoxDrawing.CreateGraphics();
-            FiguresList.Add(new Line(new Pen(Color.Blue, 6), new Point(10, 10), new Point(10, 100)));
-            FiguresList.Add(new Line(new Pen(Color.Blue, 4), new Point(10, 10), new Point(100, 100)));
-            FiguresList.Add(new Line(new Pen(Color.Black, 5), new Point(100, 100), new Point(200, 100)));
-            FiguresList.Add(new Line(new Pen(Color.Green, 15), new Point(100, 100), new Point(200, 140)));
-            FiguresList.Add(new Line(new Pen(Color.Green, 15), new Point(100, 100), new Point(200, 240)));
+            FiguresList.Add(new Line(new Pen(Color.Blue, 5), new Point(10, 10), new Point(10, 140)));
+            FiguresList.Add(new Circle(new Pen(Color.Blue, 5), new Point(30, 10), new Point(130, 80)));
+            FiguresList.Add(new Ellipse(new Pen(Color.Blue, 6), new Point(150, 10), new Point(250, 70)));
+            FiguresList.Add(new Rectangle(new Pen(Color.Blue, 6), new Point(270, 10), new Point(390, 70)));
+            FiguresList.Add(new Square(new Pen(Color.Blue, 6), new Point(400, 10), new Point(520, 70)));
         }
+  
         private void BtnDraw_Click(object sender, EventArgs e)
         {
             foreach (Shape Figure in FiguresList)
