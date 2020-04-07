@@ -26,6 +26,7 @@ namespace OOP_L1_1
             FiguresList.Add(new Ellipse(new Pen(Color.Blue, 6), new Point(150, 10), new Point(250, 70)));
             FiguresList.Add(new Rectangle(new Pen(Color.Blue, 6), new Point(270, 10), new Point(390, 70)));
             FiguresList.Add(new Square(new Pen(Color.Blue, 6), new Point(400, 10), new Point(520, 70)));
+            FiguresList.Add(new Triangle(new Pen(Color.Blue, 6), new Point(530, 10), new Point(650, 130)));
         }
   
         private void BtnDraw_Click(object sender, EventArgs e)

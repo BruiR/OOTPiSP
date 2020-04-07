@@ -47,7 +47,7 @@
             // 
             this.pBoxDrawing.Location = new System.Drawing.Point(105, 12);
             this.pBoxDrawing.Name = "pBoxDrawing";
-            this.pBoxDrawing.Size = new System.Drawing.Size(634, 277);
+            this.pBoxDrawing.Size = new System.Drawing.Size(745, 309);
             this.pBoxDrawing.TabIndex = 2;
             this.pBoxDrawing.TabStop = false;
             // 
@@ -55,7 +55,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(955, 450);
             this.Controls.Add(this.pBoxDrawing);
             this.Controls.Add(this.BtnDraw);
             this.Name = "Form1";

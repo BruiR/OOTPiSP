@@ -10,14 +10,6 @@ namespace OOP_L1_1
     class Circle : Rectangular
     {
         public Circle(Pen PenColor, Point FirstPoint, Point SecondPoint) : base(PenColor, FirstPoint, SecondPoint) { }
-/*        public int Diameter
-        {
-            get
-            { 
-                return Math.Abs(FirstPoint.X - SecondPoint.X); 
-            }
-        }  
-*/
         public override void Draw(Graphics graphic)
         {
             graphic.DrawEllipse(PenColor, FirstPoint.X, FirstPoint.Y, Width, Width);

@@ -18,18 +18,5 @@ namespace OOP_L1_1
             this.FirstPoint = FirstPoint;
             this.SecondPoint = SecondPoint;
         }
-        /*        public Point TopLeftPoint(Point FirstPoint, Point SecondPoint)
-                {
-                    int x = Math.Min(FirstPoint.X, SecondPoint.X);
-                    int y = Math.Min(FirstPoint.Y, SecondPoint.Y);
-                    return new Point(x, y);
-                }
-                public Point BottomRightPoint(Point FirstPoint, Point SecondPoint)
-                {
-                    int x = Math.Max(FirstPoint.X, SecondPoint.X);
-                    int y = Math.Max(FirstPoint.Y, SecondPoint.Y);
-                    return new Point(x, y);
-                }
-        */
     }
 }
