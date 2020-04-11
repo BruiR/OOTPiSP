@@ -57,6 +57,7 @@
             // 
             // pBoxDrawing
             // 
+            this.pBoxDrawing.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBoxDrawing.Location = new System.Drawing.Point(198, 10);
             this.pBoxDrawing.Name = "pBoxDrawing";
             this.pBoxDrawing.Size = new System.Drawing.Size(745, 426);
@@ -156,7 +157,7 @@
             this.labelThickness.Name = "labelThickness";
             this.labelThickness.Size = new System.Drawing.Size(133, 17);
             this.labelThickness.TabIndex = 11;
-            this.labelThickness.Text = "Толщина кисти = 1";
+            this.labelThickness.Text = "Толщина кисти = 7";
             // 
             // Form1
             // 

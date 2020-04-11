@@ -15,7 +15,7 @@ namespace OOP_L1_1
         Graphics GraphicImage;
         private readonly List<Shape> FiguresList =new List<Shape>();
         private readonly Dictionary<String, Shape> ShapesDictionary = new Dictionary<String, Shape>();
-        Pen PenColor = new Pen(Color.Black, 1);
+        Pen PenColor = new Pen(Color.Black, 7);
         int Thickness;
         Color ShapeColor = Color.Black;
         Point FirstPoint, SecondPoint;
