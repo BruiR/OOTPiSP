@@ -67,7 +67,7 @@
             // 
             // pBoxColor
             // 
-            this.pBoxColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.pBoxColor.BackColor = System.Drawing.Color.Black;
             this.pBoxColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBoxColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pBoxColor.Location = new System.Drawing.Point(35, 85);
@@ -85,6 +85,7 @@
             this.btnLine.TabIndex = 4;
             this.btnLine.Text = "Линия";
             this.btnLine.UseVisualStyleBackColor = true;
+            this.btnLine.Click += new System.EventHandler(this.btnLine_Click);
             // 
             // btnRectangle
             // 
@@ -94,6 +95,7 @@
             this.btnRectangle.TabIndex = 5;
             this.btnRectangle.Text = "Прямоугольник";
             this.btnRectangle.UseVisualStyleBackColor = true;
+            this.btnRectangle.Click += new System.EventHandler(this.btnRectangle_Click);
             // 
             // btnSquare
             // 
@@ -103,6 +105,7 @@
             this.btnSquare.TabIndex = 6;
             this.btnSquare.Text = "Квадрат";
             this.btnSquare.UseVisualStyleBackColor = true;
+            this.btnSquare.Click += new System.EventHandler(this.btnSquare_Click);
             // 
             // btnCircle
             // 
@@ -112,6 +115,7 @@
             this.btnCircle.TabIndex = 7;
             this.btnCircle.Text = "Круг";
             this.btnCircle.UseVisualStyleBackColor = true;
+            this.btnCircle.Click += new System.EventHandler(this.btnCircle_Click);
             // 
             // btnEllipse
             // 
@@ -121,6 +125,7 @@
             this.btnEllipse.TabIndex = 8;
             this.btnEllipse.Text = "Эллипс";
             this.btnEllipse.UseVisualStyleBackColor = true;
+            this.btnEllipse.Click += new System.EventHandler(this.btnEllipse_Click);
             // 
             // btnTriangle
             // 
@@ -130,10 +135,12 @@
             this.btnTriangle.TabIndex = 9;
             this.btnTriangle.Text = "Треугольник";
             this.btnTriangle.UseVisualStyleBackColor = true;
+            this.btnTriangle.Click += new System.EventHandler(this.btnTriangle_Click);
             // 
             // trackBarThickness
             // 
             this.trackBarThickness.Location = new System.Drawing.Point(13, 345);
+            this.trackBarThickness.Maximum = 30;
             this.trackBarThickness.Minimum = 1;
             this.trackBarThickness.Name = "trackBarThickness";
             this.trackBarThickness.Size = new System.Drawing.Size(146, 45);

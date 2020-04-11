@@ -12,7 +12,7 @@ namespace OOP_L1_1
 {
     public partial class Form1 : Form
     {
-        Graphics graphic;
+        Graphics GraphicImage;
         private readonly List<Shape> FiguresList =new List<Shape>();
         public Form1()
         {
@@ -20,7 +20,7 @@ namespace OOP_L1_1
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            graphic = pBoxDrawing.CreateGraphics();
+            GraphicImage = pBoxDrawing.CreateGraphics();
             FiguresList.Add(new Line(new Pen(Color.Blue, 5), new Point(10, 10), new Point(10, 140)));
             FiguresList.Add(new Circle(new Pen(Color.Blue, 5), new Point(30, 10), new Point(130, 80)));
             FiguresList.Add(new Ellipse(new Pen(Color.Blue, 6), new Point(150, 10), new Point(250, 70)));
@@ -33,7 +33,7 @@ namespace OOP_L1_1
         {
             foreach (Shape Figure in FiguresList)
             {
-                Figure.Draw(graphic);
+                Figure.Draw(GraphicImage);
             }
         }      
     }
