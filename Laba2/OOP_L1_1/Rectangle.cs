@@ -12,7 +12,8 @@ namespace OOP_L1_1
         public Rectangle(Pen PenColor, Point FirstPoint, Point SecondPoint) : base(PenColor, FirstPoint, SecondPoint) { }
         public override void Draw(Graphics graphic)
         {
-            graphic.DrawRectangle(PenColor, FirstPoint.X, FirstPoint.Y, Width, Height);
+            Point LeftPoint = RectangularPoint(FirstPoint, SecondPoint);
+            graphic.DrawRectangle(PenColor, LeftPoint.X, LeftPoint.Y , Width, Height);
         }
     }
 }

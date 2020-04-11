@@ -12,7 +12,8 @@ namespace OOP_L1_1
         public Ellipse(Pen PenColor, Point FirstPoint, Point SecondPoint) : base(PenColor, FirstPoint, SecondPoint) { }
         public override void Draw(Graphics graphic)
         {
-            graphic.DrawEllipse(PenColor, FirstPoint.X, FirstPoint.Y, Width, Height);
+            Point LeftPoint = RectangularPoint(FirstPoint, SecondPoint);
+            graphic.DrawEllipse(PenColor, LeftPoint.X, LeftPoint.Y, Width, Height);
         }
     }
 }
