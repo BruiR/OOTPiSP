@@ -26,9 +26,6 @@ namespace OOP_L1_1
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            //PenColor = new Pen(Color Blue, 5);
-            //PenColor.Color = System.Drawing.Color.White;
-            //PenColor.Width = 5;
             GraphicImage = pBoxDrawing.CreateGraphics();
             FiguresList.Add(new Line(new Pen(Color.Blue, 5), new Point(10, 10), new Point(10, 140)));
             FiguresList.Add(new Circle(new Pen(Color.Blue, 5), new Point(30, 10), new Point(130, 80)));
@@ -36,7 +33,6 @@ namespace OOP_L1_1
             FiguresList.Add(new Rectangle(new Pen(Color.Blue, 6), new Point(270, 10), new Point(390, 70)));
             FiguresList.Add(new Square(new Pen(Color.Blue, 6), new Point(400, 10), new Point(520, 70)));
             FiguresList.Add(new Triangle(new Pen(Color.Blue, 6), new Point(530, 10), new Point(650, 130)));
-
             ShapesDictionary.Add("Line", new Line(PenColor, FirstPoint, SecondPoint));
             ShapesDictionary.Add("Circle", new Circle(PenColor, FirstPoint, SecondPoint));
             ShapesDictionary.Add("Ellipse", new Ellipse(PenColor, FirstPoint, SecondPoint));
@@ -72,23 +68,11 @@ namespace OOP_L1_1
         {
             SecondPoint.X = e.X;
             SecondPoint.Y = e.Y;
-            //PenColor.Color = ShapeColor;
-            //PenColor.Width = Thickness;
-            //Shape NewShape;\
-            /*
-            ShapesDictionary.Add("Line", new Line(PenColor, FirstPoint, SecondPoint));
-            ShapesDictionary.Add("Circle", new Circle(PenColor, FirstPoint, SecondPoint));
-            ShapesDictionary.Add("Ellipse", new Ellipse(PenColor, FirstPoint, SecondPoint));
-            ShapesDictionary.Add("Rectangle", new Rectangle(PenColor, FirstPoint, SecondPoint));
-            ShapesDictionary.Add("Square", new Square(PenColor, FirstPoint, SecondPoint));
-            ShapesDictionary.Add("Triangle", new Triangle(PenColor, FirstPoint, SecondPoint));
-*/
             Shape NewShape = ShapesDictionary[Key];
             NewShape.FirstPoint = FirstPoint;
             NewShape.SecondPoint = SecondPoint;
             NewShape.PenColor = PenColor;
             NewShape.Draw(GraphicImage);
-           // ShapesDictionary.Clear();
         }
 
         private void btnLine_Click(object sender, EventArgs e)
@@ -119,6 +103,11 @@ namespace OOP_L1_1
         private void btnTriangle_Click(object sender, EventArgs e)
         {
             Key = "Triangle";
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            GraphicImage.Clear(Color.WhiteSmoke);
         }
 
         private void trackBarThickness_ValueChanged(object sender, EventArgs e)

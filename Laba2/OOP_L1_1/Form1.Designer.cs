@@ -40,6 +40,7 @@
             this.btnTriangle = new System.Windows.Forms.Button();
             this.trackBarThickness = new System.Windows.Forms.TrackBar();
             this.labelThickness = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxDrawing)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxColor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarThickness)).BeginInit();
@@ -140,7 +141,7 @@
             // 
             // trackBarThickness
             // 
-            this.trackBarThickness.Location = new System.Drawing.Point(13, 345);
+            this.trackBarThickness.Location = new System.Drawing.Point(19, 381);
             this.trackBarThickness.Maximum = 30;
             this.trackBarThickness.Minimum = 1;
             this.trackBarThickness.Name = "trackBarThickness";
@@ -153,17 +154,28 @@
             // 
             this.labelThickness.AutoSize = true;
             this.labelThickness.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelThickness.Location = new System.Drawing.Point(32, 325);
+            this.labelThickness.Location = new System.Drawing.Point(32, 361);
             this.labelThickness.Name = "labelThickness";
             this.labelThickness.Size = new System.Drawing.Size(133, 17);
             this.labelThickness.TabIndex = 11;
             this.labelThickness.Text = "Толщина кисти = 7";
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(39, 314);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(92, 28);
+            this.btnClear.TabIndex = 12;
+            this.btnClear.Text = "Очистить";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 450);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.labelThickness);
             this.Controls.Add(this.trackBarThickness);
             this.Controls.Add(this.btnTriangle);
@@ -200,6 +212,7 @@
         private System.Windows.Forms.Button btnTriangle;
         private System.Windows.Forms.TrackBar trackBarThickness;
         private System.Windows.Forms.Label labelThickness;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
