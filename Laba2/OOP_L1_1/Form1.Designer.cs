@@ -162,9 +162,9 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(39, 314);
+            this.btnClear.Location = new System.Drawing.Point(35, 301);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(92, 28);
+            this.btnClear.Size = new System.Drawing.Size(96, 28);
             this.btnClear.TabIndex = 12;
             this.btnClear.Text = "Очистить";
             this.btnClear.UseVisualStyleBackColor = true;
