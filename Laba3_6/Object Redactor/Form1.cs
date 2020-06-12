@@ -29,10 +29,10 @@ namespace Object_Redactor
         {
             InitializeComponent();
             ObjHelper = new ObjectRedactorHelper(this);
-            library = Assembly.LoadFrom("F:\\Ycheba\\4sem\\ООП\\Laba3_4\\ClassLibrary\\bin\\Debug\\ClassLibrary.dll");
-            slibrary = Assembly.LoadFrom("F:\\Ycheba\\4sem\\ООП\\Laba3_4\\SerializationLibrary\\bin\\Debug\\SerializationLibrary.dll");
-            plibrary = Assembly.LoadFrom("F:\\Ycheba\\4sem\\ООП\\Laba3_4\\PluginLibrary\\bin\\Debug\\PluginLibrary.dll");
-            alibrary = Assembly.LoadFrom("F:\\Ycheba\\4sem\\ООП\\Laba3_4\\AdapterLubrary\\bin\\Debug\\AdapterLubrary.dll");
+            library = Assembly.LoadFrom("F:\\Ycheba\\4sem\\ООП\\Laba3_6\\ClassLibrary\\bin\\Debug\\ClassLibrary.dll");
+            slibrary = Assembly.LoadFrom("F:\\Ycheba\\4sem\\ООП\\Laba3_6\\SerializationLibrary\\bin\\Debug\\SerializationLibrary.dll");
+            plibrary = Assembly.LoadFrom("F:\\Ycheba\\4sem\\ООП\\Laba3_6\\PluginLibrary\\bin\\Debug\\PluginLibrary.dll");
+            alibrary = Assembly.LoadFrom("F:\\Ycheba\\4sem\\ООП\\Laba3_6\\AdapterLubrary\\bin\\Debug\\AdapterLubrary.dll");
             classes = library.GetTypes();
             plugins = plibrary.GetTypes();
             serializations = slibrary.GetTypes();
